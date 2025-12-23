@@ -1,6 +1,6 @@
 It is a silly mailbot, but it has some cool patterns. The rationale behind it being in Polish is such that it is complicated enough.
-~
-Wyślij raport, jeśli edytowano dokumentację.
+
+#### Wyślij raport, jeśli edytowano dokumentację.
 
 # Założenia
 Dokumentacja znajduje się na *SVN*. Niektóre dokumenty opublikowane są na platformie WEB. Edycja dokumentu wymaga jego aktualizacji tam, gdzie jest udostępniony. Celem niniejszej aplikacji jest automatyzacja generowania informacji e-mail o konieczności aktualizacji pliku.
