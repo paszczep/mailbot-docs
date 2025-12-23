@@ -1,3 +1,5 @@
+It is a silly mailbot, but it has some cool patterns. The rationale behind it being in Polish is such that it is complicated enough.
+~
 Wyślij raport, jeśli edytowano dokumentację.
 
 # Założenia
@@ -52,7 +54,7 @@ W CLI w floderze projektu `make` +
 - `remove` - usuń obrazy kontenerów aplikacji
 
 # Dostęp *SFTP* do serwera 
-Aplikacja wymaga użytkownika z dostępem odczytu miejsca, w którym przechowywana jest dokumentacja, na serwerze aplikacji udostępniającej.
+Aplikacja wymaga użytkownika z dostępem odczytu miejsca, w którym przechowywana jest dokumentacja.
 ```
 sudo adduser (...)
 
