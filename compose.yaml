@@ -1,0 +1,20 @@
+services:
+  mailbot:
+    restart: unless-stopped
+    image: mailbot-dokumentacja
+    container_name: mailbot-dokumentacja
+    build: .
+    environment:
+      TZ: Europe/Warsaw
+    env_file: [.env]
+    volumes: [./emails.toml:/code/emails.toml:ro]
+    networks: [mailbot-dokumentacja-network]
+  
+  redis:
+    image: redis
+    container_name: mailbot-dokumentacja-redis
+    restart: unless-stopped
+    networks: [mailbot-dokumentacja-network]
+
+networks:
+  mailbot-dokumentacja-network:

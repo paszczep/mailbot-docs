@@ -1,0 +1,6 @@
+svn
+schedule
+redis
+paramiko
+lxml
+

@@ -1,0 +1,4 @@
+emails = [
+    'spam42@baz.eu',
+    'foo.bar@baz.eu',
+]
